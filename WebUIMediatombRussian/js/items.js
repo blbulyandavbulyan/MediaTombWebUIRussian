@@ -119,7 +119,7 @@ function updateItems(ajaxRequest)
         items = xmlGetElement(xml, "files");
         if (! items)
         {
-            alert("no items or files tag found");
+            alert("не найдено ни одного элемента или файла");
             return;
         }
         useFiles = true;
@@ -134,7 +134,7 @@ function updateItems(ajaxRequest)
     {
         if (ofId == '0')
         {
-            alert("Oops, your database seems to be corrupt. Please report this problem.");
+            alert("К сожалению, ваша база данных, похоже, повреждена. Сообщите об этой проблеме.");
             return;
         }
         var prefix = (useFiles ? 'f' : 'd');
@@ -357,8 +357,8 @@ function updateItems(ajaxRequest)
         pathEl.appendChild(topRightDocument.createTextNode(" /Filesystem" + path + (path.charAt(path.length - 1) != '/' ? '/' : '')));
         
         var first = true
-        first = _addLink(topRightDocument, buttons, first, "javascript:parent.addItem('"+ofId+"');", "add", iconAdd);
-        first = _addLink(topRightDocument, buttons, first, "javascript:parent.editLoadAutoscanDirectory('"+ofId+"', true);", "add as autoscan dir", iconAddAutoscan);
+        first = _addLink(topRightDocument, buttons, first, "javascript:parent.addItem('"+ofId+"');", "добавить", iconAdd);
+        first = _addLink(topRightDocument, buttons, first, "javascript:parent.editLoadAutoscanDirectory('"+ofId+"', true);", "добавить как директрорию для автосканирования", iconAddAutoscan);
     }
     else
     {
@@ -427,15 +427,15 @@ function updateItems(ajaxRequest)
             autoscanLink = true;
         
         if (addLink)
-            first = _addLink(topRightDocument, buttons, first, "javascript:parent.userAddItemStart();", "add Item", iconNewItem);
+            first = _addLink(topRightDocument, buttons, first, "javascript:parent.userAddItemStart();", "добавить элемент", iconNewItem);
         if (editLink)
-            first = _addLink(topRightDocument, buttons, first, "javascript:parent.userEditItemStart('"+ofId+"');", "edit", iconEdit);
+            first = _addLink(topRightDocument, buttons, first, "javascript:parent.userEditItemStart('"+ofId+"');", "Редактировать", iconEdit);
         if (removeThisLink)
-            first = _addLink(topRightDocument, buttons, first, "javascript:parent.removeItem('"+ofId+"', false);", "remove", iconRemoveThis);
+            first = _addLink(topRightDocument, buttons, first, "javascript:parent.removeItem('"+ofId+"', false);", "удалить", iconRemoveThis);
         if (removeAllLink)
-            first = _addLink(topRightDocument, buttons, first, "javascript:parent.removeItem('"+ofId+"', true);", "remove all", iconRemoveAll);
+            first = _addLink(topRightDocument, buttons, first, "javascript:parent.removeItem('"+ofId+"', true);", "удалить всё", iconRemoveAll);
         if (autoscanLink)
-            first = _addLink(topRightDocument, buttons, first,  "javascript:parent.editLoadAutoscanDirectory('"+ofId+"', false);", "change autoscan dir", iconEditAutoscan);
+            first = _addLink(topRightDocument, buttons, first,  "javascript:parent.editLoadAutoscanDirectory('"+ofId+"', false);", "изменить директрорию для автосканирования", iconEditAutoscan);
     }
     
     if (showPaging)
@@ -513,7 +513,7 @@ function updateItems(ajaxRequest)
         {
             //itemEntry.appendChild(rightDocument.createTextNode(" - "));
             
-            _addLink(rightDocument, itemButtons, true, "javascript:parent.addItem(\""+item.getAttribute("id")+"\");", "add", iconAdd);
+            _addLink(rightDocument, itemButtons, true, "javascript:parent.addItem(\""+item.getAttribute("id")+"\");", "добавить", iconAdd);
         }
         else
         {
@@ -521,14 +521,14 @@ function updateItems(ajaxRequest)
             
             if (! itemsProtected)
             {
-                _addLink(rightDocument, itemButtons, true, "javascript:parent.removeItem(\""+item.getAttribute("id")+"\", false);", "remove this", iconRemoveThis);
+                _addLink(rightDocument, itemButtons, true, "javascript:parent.removeItem(\""+item.getAttribute("id")+"\", false);", "удалить это", iconRemoveThis);
                 if (isVirtual)
                 {
-                    _addLink(rightDocument, itemButtons, false, "javascript:parent.removeItem(\""+item.getAttribute("id")+"\", true);", "remove all", iconRemoveAll);
+                    _addLink(rightDocument, itemButtons, false, "javascript:parent.removeItem(\""+item.getAttribute("id")+"\", true);", "удалить всё", iconRemoveAll);
                 }
             }
             
-            _addLink(rightDocument, itemButtons, false, "javascript:parent.userEditItemStart('"+item.getAttribute("id")+"');", "edit", iconEdit);
+            _addLink(rightDocument, itemButtons, false, "javascript:parent.userEditItemStart('"+item.getAttribute("id")+"');", "редактировать", iconEdit);
             
             itemLink.setAttribute("href", xmlGetElementText(item, "res"));
             
@@ -690,7 +690,7 @@ function updateItemAddEditFields(editItem)
     else
     {
         selectEl.disabled = true;
-        submitEl.value = 'Update item...';
+        submitEl.value = 'Обновить элемент...';
         currentTypeOption = xmlGetElementText(editItem, 'obj_type');
         var objectId = editItem.getAttribute('object_id');
         selectEl.value = currentTypeOption;
@@ -829,7 +829,7 @@ function removeItem(itemId, all)
 {
     if (itemId == '0')
     {
-        alert("Root container cannot be removed!");
+        alert("Корневой контейнер нельзя удалить!");
         return;
     }
     

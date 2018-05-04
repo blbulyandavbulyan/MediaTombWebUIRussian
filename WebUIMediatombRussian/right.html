@@ -56,7 +56,7 @@
                     <tr>
                         <td colspan="2" align="right">
                             <!-- TODO: doesn't work for add... --> 
-                            <input name="cancel" type="button" value="Cancel" onClick="parent.cancelButtonPressed();">
+                            <input name="cancel" type="button" value="Отмена" onClick="parent.cancelButtonPressed();">
                             <!-- -->
                             <input name="submit" type="submit">
                         </td>
@@ -69,7 +69,7 @@
                     <table class="classicForm" align="center">
                         <tr style="display:none" id="autoscan_persistent_message">
                             <td colspan="4" style="text-align:center">
-                                This is a persistent autoscan directory (defined in config), it can not be modified via the web UI.
+                                Это постоянный каталог autoscan (определенный в config), он не может быть изменен через веб-интерфейс.
                             </td>
                         </tr>
                         <tr>
@@ -79,13 +79,13 @@
                         </tr>
                         <tr>
                             <td align="right">
-                                Scan Mode:
+                                Режим сканирования:
                             </td>
                             <td>
-                                    <input type="radio" name="scan_mode" id="scan_mode_none" value="none" checked="checked" onchange="parent.scanModeChanged();"> <label for="scan_mode_none">None</label>
+                                    <input type="radio" name="scan_mode" id="scan_mode_none" value="none" checked="checked" onchange="parent.scanModeChanged();"> <label for="scan_mode_none">Не сканировать</label>
                             </td>
                             <td>
-                                    <input type="radio" name="scan_mode" id="scan_mode_timed" value="timed" onchange="parent.scanModeChanged();"> <label for="scan_mode_timed">Timed</label>
+                                    <input type="radio" name="scan_mode" id="scan_mode_timed" value="timed" onchange="parent.scanModeChanged();"> <label for="scan_mode_timed">По времени</label>
                             </td>
                             <td>
                                     <input style="display:none" type="radio" name="scan_mode" id="scan_mode_inotify" value="inotify" onchange="parent.scanModeChanged();"> <label style="display:none" for="scan_mode_inotify" id="scan_mode_inotify_label">Inotify</label>
@@ -96,15 +96,15 @@
                                 <span id="scan_level_text">&nbsp;</span>
                             </td>
                             <td>
-                                    <input type="radio" name="scan_level" id="scan_level_basic" value="basic" onchange="parent.scanLevelChanged();"> <label for="scan_level_basic">Basic</label>
+                                    <input type="radio" name="scan_level" id="scan_level_basic" value="basic" onchange="parent.scanLevelChanged();"> <label for="scan_level_basic">Базовое</label>
                             </td>
                             <td colspan="2">
-                                    <input type="radio" name="scan_level" id="scan_level_full" value="full" checked="checked" onchange="parent.scanLevelChanged();"> <label for="scan_level_full">Full</label>
+                                    <input type="radio" name="scan_level" id="scan_level_full" value="full" checked="checked" onchange="parent.scanLevelChanged();"> <label for="scan_level_full">Полное</label>
                             </td>
                         </tr>
                         <tr>
                             <td align="right">
-                                <label for="recursive">Recursive:</label>
+                                <label for="recursive">Рекурсивно:</label>
                             </td>
                             <td colspan="3">
                                 <input type="checkbox" name="recursive" id="recursive" value="true">
@@ -112,7 +112,7 @@
                         </tr>
                         <tr>
                             <td align="right">
-                                <label for="hidden">Include hidden files/directories:</label>
+                                <label for="hidden">Подключить скрытые файлы/дириктории:</label>
                             </td>
                             <td colspan="3">
                                 <input type="checkbox" name="hidden" id="hidden" value="true">
@@ -120,7 +120,7 @@
                         </tr>
                         <tr id="scan_interval_row">
                             <td align="right">
-                                <label for="interval">Scan Interval (in seconds):</label>
+                                <label for="interval">Интервал сканирования (в секундах):</label>
                             </td>
                             <td>
                                 <input type="text" name="interval" id="interval" value="1800" size="4">
@@ -130,8 +130,8 @@
                         <tr><td>&nbsp;</td></tr>
                         <tr>
                             <td colspan="4" align="right">
-                                <input name="cancel" type="button" value="Cancel" class="button" onClick="parent.cancelButtonPressed();">
-                                <input id="autoscan_set_button" name="submit" type="submit" value="Set" class="button">
+                                <input name="cancel" type="button" value="Онтмена" class="button" onClick="parent.cancelButtonPressed();">
+                                <input id="autoscan_set_button" name="submit" type="submit" value="Преминить" class="button">
                             </td>
                         </tr>
                     </table>
@@ -149,7 +149,7 @@
                     <tbody>
                         <tr>
                             
-                            <td style="vertical-align: top;">Username:</td>
+                            <td style="vertical-align: top;">Пользователь:</td>
                             <td style="vertical-align: top;">
                                 <input name="username" size="24" type="text">
                             </td>
@@ -159,7 +159,7 @@
                         </tr>
                         <tr>
                             <td style="vertical-align: top; text-align: left;">
-                                Password:
+                                Пароль:
                             </td>
                             <td style="vertical-align: top; text-align: left;">
                                 <input name="password" size="24" type="password">
@@ -168,7 +168,7 @@
                         <tr>
                             <td style="vertical-align: top;"></td>
                             <td style="vertical-align: top; text-align: right;">
-                                <input value="Login" type="submit">
+                                <input value="Вход" type="submit">
                             </td>
                         </tr>
                     </tbody>

@@ -58,7 +58,7 @@
                 if (msieWarn != "ok")
                 {
                     setCookie("MSIEwarn", "ok");
-                    alert('MediaTomb UI is very limited with Internet Explorer and some elements will be displayed incorrectly! Please see the section "Internet Explorer" in the README file.');
+                    alert('Интерфейс MediaTomb очень ограничен при использовании Internet Explorer, и некоторые элементы будут отображаться некорректно! См. Раздел «Internet Explorer» в файле README.');
                 }
             }
             function init() {
@@ -129,7 +129,7 @@
                     
                     onException: function()
                     {
-                        alert("MediaTomb cannot be reached! Please check if the server is still running.");
+                        alert("Не удаёться подключиться к серверу MediaTomb! Проверьте, работает ли сервер.");
                         clearPollInterval();
                         if(Ajax.activeRequestCount < 0)
                             Ajax.activeRequestCount = 0;

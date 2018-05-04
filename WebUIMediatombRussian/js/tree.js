@@ -101,14 +101,14 @@ function treeInit()
     rootContainer.appendChild(dbStuff.container);
     rootContainer.appendChild(fsStuff.container);
     
-    dbStuff.rootNode = new TreeNode(-1,"Database", iconArray);
-    dbStuff.tombRootNode = new TreeNode('d0', "Database", iconArray);
+    dbStuff.rootNode = new TreeNode(-1,"База данных", iconArray);
+    dbStuff.tombRootNode = new TreeNode('d0', "База данных", iconArray);
     dbStuff.tombRootNode.setHasChildren(true);
     dbStuff.tombRootNode.addOpenEventListener("openEventListener");
     dbStuff.rootNode.addChild(dbStuff.tombRootNode);
     //writeStates('d0','open');
-    fsStuff.rootNode = new TreeNode(-2,"Filesystem", iconArray);
-    fsStuff.tombRootNode = new TreeNode('f0', "Filesystem", iconArray);
+    fsStuff.rootNode = new TreeNode(-2,"Файловая система", iconArray);
+    fsStuff.tombRootNode = new TreeNode('f0', "Файловая система", iconArray);
     fsStuff.tombRootNode.setHasChildren(true);
     fsStuff.tombRootNode.addOpenEventListener("openEventListener");
     fsStuff.rootNode.addChild(fsStuff.tombRootNode);
@@ -295,7 +295,7 @@ function updateTree(ajaxRequest)
     var containers = xmlGetElement(xml, "containers");
     if (! containers)
     {
-        alert("no containers tag found");
+        alert("не найдено тегов контейнеров");
         return;
     }
     var type = xmlGetAttribute(containers, "type");
@@ -313,7 +313,7 @@ function updateTree(ajaxRequest)
     {
         if (ofId == '0')
         {
-            alert("Oops, your database seems to be corrupt. Please report this problem.");
+            alert("К сожалению, ваша база данных, похоже, повреждена. Сообщите об этой проблеме.");
             return;
         }
         var parNode = node.getParent();
@@ -335,7 +335,7 @@ function updateTree(ajaxRequest)
     var cts = containers.getElementsByTagName("container");
     if (! cts)
     {
-        alert("no containers found");
+        alert("контейнеров не найдено");
         return;
     }
     

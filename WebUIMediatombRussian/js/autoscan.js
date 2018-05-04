@@ -234,7 +234,7 @@ function scanModeChanged(filled)
         elements['recursive'].disabled = true;
         elements['hidden'].disabled = true;
         elements['interval'].disabled = true;
-        scan_level_text.replaceChild(rightDocument.createTextNode("Scan Level:"), scan_level_text.firstChild);
+        scan_level_text.replaceChild(rightDocument.createTextNode("Уровень сканирования:"), scan_level_text.firstChild);
     }
     else
     {
@@ -243,14 +243,14 @@ function scanModeChanged(filled)
         var scan_interval_row = rightDocument.getElementById("scan_interval_row");
         if (elements['scan_mode_inotify'].checked)
         {
-            scan_level_text.replaceChild(rightDocument.createTextNode("Initial Scan:"), scan_level_text.firstChild);
+            scan_level_text.replaceChild(rightDocument.createTextNode("Начальное сканирование:"), scan_level_text.firstChild);
             if (! filled)
                 elements['scan_level_basic'].checked = true;
             Element.hide(scan_interval_row);
         }
         else
         {
-            scan_level_text.replaceChild(rightDocument.createTextNode("Scan Level:"), scan_level_text.firstChild);
+            scan_level_text.replaceChild(rightDocument.createTextNode("Уровень сканирования:"), scan_level_text.firstChild);
             if (! filled)
                 elements['scan_level_full'].checked = true;
             Element.show(scan_interval_row);
