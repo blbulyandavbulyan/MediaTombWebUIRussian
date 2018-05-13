@@ -1,0 +1,13 @@
+#selected_page_num{
+	font-size:20px;
+}
+select{
+	border-radius: 11px;
+    border: black;
+    background-color: grey;
+    font-family: 'Lobster', cursive;
+    font-size: 17px;
+    width: 59px;
+    text-align-last: center;
+    text-align: center;
+}

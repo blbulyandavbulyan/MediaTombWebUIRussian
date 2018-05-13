@@ -221,8 +221,8 @@ function updateItems(ajaxRequest)
         
         if (prevPageStart >= 0)
         {
-            _addLink(rightDocument, pagingCellLeft, false, "javascript:parent.loadItems('"+loadItemId+"','0');", "first", iconFirst, " ");
-            _addLink(rightDocument, pagingCellLeft, false, "javascript:parent.loadItems('"+loadItemId+"','"+prevPageStart+"');", "previous", iconPrevious, " ");
+            _addLink(rightDocument, pagingCellLeft, false, "javascript:parent.loadItems('"+loadItemId+"','0');", "Первая страница", iconFirst, " ");
+            _addLink(rightDocument, pagingCellLeft, false, "javascript:parent.loadItems('"+loadItemId+"','"+prevPageStart+"');", "Предыдущая страница", iconPrevious, " ");
         }
         else
         {
@@ -232,8 +232,8 @@ function updateItems(ajaxRequest)
         
         if (nextPageStart < totalMatches)
         {
-            _addLink(rightDocument, pagingCellRight, false, "javascript:parent.loadItems('"+loadItemId+"','"+nextPageStart+"');", "next", iconNext, " ");
-            _addLink(rightDocument, pagingCellRight, false, "javascript:parent.loadItems('"+loadItemId+"','"+((totalPages - 1) * viewItems)+"');", "last", iconLast, " ");
+            _addLink(rightDocument, pagingCellRight, false, "javascript:parent.loadItems('"+loadItemId+"','"+nextPageStart+"');", "Следующая страница", iconNext, " ");
+            _addLink(rightDocument, pagingCellRight, false, "javascript:parent.loadItems('"+loadItemId+"','"+((totalPages - 1) * viewItems)+"');", "Последняя страница", iconLast, " ");
         }
         else
         {
@@ -278,7 +278,11 @@ function updateItems(ajaxRequest)
                 
                 if (i == thisPage)
                 {
-                    pagingLink = rightDocument.createElement("strong");
+                  /*   pagingLink = rightDocument.createElement("strong"); */
+					var selected_page_num = rightDocument.createElement("strong");
+					selected_page_num.setAttribute("id", "selected_page_num");
+					pagingLink = selected_page_num;
+					/* pagingLing.setAttribute("id", "selected_page_num"); */
                 }
                 else
                 {
