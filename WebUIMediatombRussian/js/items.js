@@ -686,7 +686,7 @@ function updateItemAddEditFields(editItem)
     if (!editItem)
     {
         selectEl.disabled = false;
-        submitEl.value = 'Add item...';
+        submitEl.value = 'Добавить элемент...';
         currentTypeOption = selectEl.value;
         if (!currentTypeOption) currentTypeOption = 'container';
         form.action = 'javascript:parent.itemAddEditSubmit();';
@@ -706,7 +706,7 @@ function updateItemAddEditFields(editItem)
         // ATTENTION: These values need to be changed in src/cds_objects.h too.
         // Note: 'Active Item', 'External Link (URL)', 'Internal Link (Local URL)'
         // are also 'Items', so they have the item flag set too.
-        var objTypeOptionsText = new Array('Container', 'Item', 'Active Item', 'External Link (URL)', 'Internal Link (Local URL)');
+        var objTypeOptionsText = new Array('Контейнер', 'Элемент', 'Активный элемент', 'Внешняя ссылка (URL)', 'Внутренняя ссылка (локальный URL)');
         var objTypeOptionsValue = new Array('container', 'item', 'active_item', 'external_url', 'internal_url');
         
         for (var i = 0; i < objTypeOptionsValue.length; ++i)
@@ -725,31 +725,31 @@ function updateItemAddEditFields(editItem)
     // using "if" instead of "switch" for compatibility reasons...
     if (currentTypeOption == 'container')
     {
-        fieldAr = new Array('Title', 'Class');
+        fieldAr = new Array('Заголовок', 'Класс');
         fieldNameAr = new Array('title', 'class');
         defaultsAr = new Array('', 'object.container');
     }
     else if (currentTypeOption == 'item')
     {
-        fieldAr = new Array('Title', 'Location', 'Class', 'Description', 'Mimetype');
+        fieldAr = new Array('Заголовок', 'Расположение', 'Класс', 'Описание', 'Mimetype');
         fieldNameAr = new Array('title', 'location', 'class', 'description', 'mime-type');
         defaultsAr = new Array('', '', 'object.item', '', '');
     }
     else if (currentTypeOption == 'active_item')
     {
-        fieldAr = new Array('Title', 'Location', 'Class', 'Description', 'Mimetype', 'Action Script', 'State');
+        fieldAr = new Array('Заголовок', 'Расположение', 'Класс', 'Описание', 'Mimetype', 'Action Script', 'Состояние');
         fieldNameAr = new Array('title', 'location', 'class', 'description', 'mime-type', 'action', 'state');
         defaultsAr = new Array('', '', 'object.item.activeItem', '', '', '', '');
     }
     else if (currentTypeOption == 'external_url')
     {
-        fieldAr = new Array('Title', 'URL', 'Protocol', 'Class', 'Description', 'Mimetype');
+        fieldAr = new Array('Заголовок', 'URL', 'Протокол', 'Класс', 'Описание', 'Mimetype');
         fieldNameAr = new Array('title', 'location', 'protocol', 'class', 'description', 'mime-type');
         defaultsAr = new Array('', '', 'http-get', 'object.item', '', '');
     }
     else if (currentTypeOption == 'internal_url')
     {
-        fieldAr = new Array('Title', 'URL', 'Class', 'Description', 'Mimetype');
+        fieldAr = new Array('Заголовок', 'URL', 'Класс', 'Описание', 'Mimetype');
         fieldNameAr = new Array('title', 'location', 'class', 'description', 'mime-type');
         defaultsAr = new Array('', '', 'object.item', '', '');
     }
@@ -762,16 +762,18 @@ function updateItemAddEditFields(editItem)
         {
             var inputTr = rightDocument.createElement('tr');
             itemTbody.appendChild(inputTr);
-            var inputTd = rightDocument.createElement('td');
+ 			var inputTd = rightDocument.createElement('td');
             inputTr.appendChild(inputTd);
             inputTd.setAttribute("align", "right");
-            inputTd.appendChild(rightDocument.createTextNode(fieldAr[i]+": "));
+            /* inputTd.appendChild(rightDocument.createTextNode(fieldAr[i]+": ")); */
             
             var inputTd = rightDocument.createElement('td');
             inputTr.appendChild(inputTd);
             var inputEl = rightDocument.createElement('input');
             inputEl.setAttribute('type', 'text');
             inputEl.setAttribute('name', fieldNameAr[i]);
+			inputEl.setAttribute('placeholder', fieldAr[i]);
+			inputEl.setAttribute('title', fieldAr[i]);
             inputEl.setAttribute('size', '40');
             if (!editItem)
                 inputEl.setAttribute('value', defaultsAr[i]);

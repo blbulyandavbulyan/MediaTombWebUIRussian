@@ -1,0 +1,21 @@
+html{
+	height:100%;
+	width:100%;
+}
+body{
+	height:100%;
+	width:100%;
+}
+h3{
+	font-size: 58px;
+    color: black;
+    text-shadow: 1px 1px 4px red, -1px -1px 4px red;
+}
+div#flextext{
+	height:100%;
+	width:100%;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:center;
+}

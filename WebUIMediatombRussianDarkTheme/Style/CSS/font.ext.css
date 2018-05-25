@@ -1,0 +1,578 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya Sans SC Regular'), local('AlegreyaSansSC-Regular'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.cyrext.woff2) format('woff2'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.cyrext.woff) format('woff'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.cyrext.ttf) format('ttf'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.cyrext.svg) format('svg'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.cyrext.otf) format('otf'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.cyrext.eot) format('eot');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}/*загруженно*/
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya Sans SC Regular'), local('AlegreyaSansSC-Regular'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.cyr.woff2) format('woff2'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.cyr.woff) format('woff'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.cyr.ttf) format('ttf'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.cyr.svg) format('svg'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.cyr.otf) format('otf'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.cyr.eot) format('eot');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}/*загруженно*/
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya Sans SC Regular'), local('AlegreyaSansSC-Regular'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.latinext.woff2) format('woff2'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.latinext.woff) format('woff'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.latinext.ttf) format('ttf'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.latinext.svg) format('svg'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.latinext.otf) format('otf'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.latinext.eot) format('eot');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}/*загруженно*/
+/* latin */
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya Sans SC Regular'), local('AlegreyaSansSC-Regular'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.latin.woff2) format('woff2'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.latin.woff) format('woff'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.latin.ttf) format('ttf'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.latin.svg) format('svg'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.latin.otf) format('otf'),
+  url(/Style/Fonts/Alegreya_Sans_SC/Alegreya_Sans_SC.latin.eot) format('eot');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/*загруженно*/
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alice';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alice Regular'), local('Alice-Regular'), 
+  url(/Style/Fonts/Alice/Alice.cyrext.woff2) format('woff2'),
+  url(/Style/Fonts/Alice/Alice.cyrext.woff) format('woff'),
+  url(/Style/Fonts/Alice/Alice.cyrext.ttf) format('ttf'),
+  url(/Style/Fonts/Alice/Alice.cyrext.svg) format('svg'),
+  url(/Style/Fonts/Alice/Alice.cyrext.otf) format('otf'),
+  url(/Style/Fonts/Alice/Alice.cyrext.eot) format('eot');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}/*загруженно*/
+/* cyrillic */
+@font-face {
+  font-family: 'Alice';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alice Regular'), local('Alice-Regular'), 
+  url(/Style/Fonts/Alice/Alice.cyr.woff2) format('woff2'),
+  url(/Style/Fonts/Alice/Alice.cyr.woff) format('woff'),
+  url(/Style/Fonts/Alice/Alice.cyr.ttf) format('ttf'),
+  url(/Style/Fonts/Alice/Alice.cyr.svg) format('svg'),
+  url(/Style/Fonts/Alice/Alice.cyr.otf) format('otf'),
+  url(/Style/Fonts/Alice/Alice.cyr.eot) format('eot');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}/*загруженно*/
+/* latin */
+@font-face {
+  font-family: 'Alice';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alice Regular'), local('Alice-Regular'), 
+  url(/Style/Fonts/Alice/Alice.latin.woff2) format('woff2'),
+  url(/Style/Fonts/Alice/Alice.latin.woff) format('woff'),
+  url(/Style/Fonts/Alice/Alice.latin.ttf) format('ttf'),
+  url(/Style/Fonts/Alice/Alice.latin.svg) format('svg'),
+  url(/Style/Fonts/Alice/Alice.latin.otf) format('otf'),
+  url(/Style/Fonts/Alice/Alice.latin.eot) format('eot');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/*загруженно*/
+/* cyrillic-ext */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: local('EB Garamond Regular'), local('EBGaramond-Regular'), 
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.cyrext.woff2) format('woff2'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.cyrext.woff) format('woff'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.cyrext.ttf) format('ttf'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.cyrext.svg) format('svg'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.cyrext.otf) format('otf'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.cyrext.eot) format('eot');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}/*загруженно*/
+/* cyrillic */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: local('EB Garamond Regular'), local('EBGaramond-Regular'), 
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.cyr.woff2) format('woff2'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.cyr.woff) format('woff'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.cyr.ttf) format('ttf'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.cyr.svg) format('svg'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.cyr.otf) format('otf'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.cyr.eot) format('eot');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}/*загруженно*/
+
+/* latin-ext */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: local('EB Garamond Regular'), local('EBGaramond-Regular'),
+   url(/Style/Fonts/EB_Garamond/EB_Garamond.latinext.woff2) format('woff2'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.latinext.woff) format('woff'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.latinext.ttf) format('ttf'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.latinext.svg) format('svg'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.latinext.otf) format('otf'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.latinext.eot) format('eot');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}/*загруженно*/
+/* latin */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: local('EB Garamond Regular'), local('EBGaramond-Regular'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.latin.woff2) format('woff2'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.latin.woff) format('woff'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.latin.ttf) format('ttf'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.latin.svg) format('svg'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.latin.otf) format('otf'),
+  url(/Style/Fonts/EB_Garamond/EB_Garamond.latin.eot) format('eot');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/*загруженно*/
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Forum'),
+  url(/Style/Fonts/Forum/Forum.cyrext.woff2) format('woff2'),
+  url(/Style/Fonts/Forum/Forum.cyrext.woff) format('woff'),
+  url(/Style/Fonts/Forum/Forum.cyrext.ttf) format('ttf'),
+  url(/Style/Fonts/Forum/Forum.cyrext.svg) format('svg'),
+  url(/Style/Fonts/Forum/Forum.cyrext.otf) format('otf'),
+  url(/Style/Fonts/Forum/Forum.cyrext.eot) format('eot');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}/*загруженно*/
+/* cyrillic */
+@font-face {
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Forum'),
+  url(/Style/Fonts/Forum/Forum.cyr.woff2) format('woff2'),
+  url(/Style/Fonts/Forum/Forum.cyr.woff) format('woff'),
+  url(/Style/Fonts/Forum/Forum.cyr.ttf) format('ttf'),
+  url(/Style/Fonts/Forum/Forum.cyr.svg) format('svg'),
+  url(/Style/Fonts/Forum/Forum.cyr.otf) format('otf'),
+  url(/Style/Fonts/Forum/Forum.cyr.eot) format('eot');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}/*загруженно*/
+/* latin-ext */
+@font-face {
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Forum'),
+  url(/Style/Fonts/Forum/Forum.latinext.woff2) format('woff2'),
+  url(/Style/Fonts/Forum/Forum.latinext.woff) format('woff'),
+  url(/Style/Fonts/Forum/Forum.latinext.ttf) format('ttf'),
+  url(/Style/Fonts/Forum/Forum.latinext.svg) format('svg'),
+  url(/Style/Fonts/Forum/Forum.latinext.otf) format('otf'),
+  url(/Style/Fonts/Forum/Forum.latinext.eot) format('eot');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}/*загруженно*/
+/* latin */
+@font-face {
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Forum'), 
+  url(/Style/Fonts/Forum/Forum.latin.woff2) format('woff2'),
+  url(/Style/Fonts/Forum/Forum.latin.woff) format('woff'),
+  url(/Style/Fonts/Forum/Forum.latin.ttf) format('ttf'),
+  url(/Style/Fonts/Forum/Forum.latin.svg) format('svg'),
+  url(/Style/Fonts/Forum/Forum.latin.otf) format('otf'),
+  url(/Style/Fonts/Forum/Forum.latin.eot) format('eot');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/*загруженно*/
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('IBM Plex Mono'), local('IBMPlexMono'), url(https://fonts.gstatic.com/s/ibmplexmono/v2/-F63fjptAgt5VM-kVkqdyU8n1iIq129k.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}/*загруженно*/
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('IBM Plex Mono'), local('IBMPlexMono'), url(https://fonts.gstatic.com/s/ibmplexmono/v2/-F63fjptAgt5VM-kVkqdyU8n1isq129k.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}/*загруженно*/
+
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('IBM Plex Mono'), local('IBMPlexMono'), url(https://fonts.gstatic.com/s/ibmplexmono/v2/-F63fjptAgt5VM-kVkqdyU8n1iEq129k.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}/*загруженно*/
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('IBM Plex Mono'), local('IBMPlexMono'), url(https://fonts.gstatic.com/s/ibmplexmono/v2/-F63fjptAgt5VM-kVkqdyU8n1i8q1w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/*загруженно*/
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Serif'), local('NotoSerif'), url(https://fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFoWaCi_.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}/*загруженно*/
+/* cyrillic */
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Serif'), local('NotoSerif'), url(https://fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFMWaCi_.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}/*загруженно*/
+
+/* latin-ext */
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Serif'), local('NotoSerif'), url(https://fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFkWaCi_.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Serif'), local('NotoSerif'), url(https://fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFcWaA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Old Standard TT';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Old Standard TT Regular'), local('OldStandardTT-Regular'), url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQubh3o1vLImiwAVvYawgcf2eVep1q4dHc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Old Standard TT';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Old Standard TT Regular'), local('OldStandardTT-Regular'), url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQubh3o1vLImiwAVvYawgcf2eVerlq4dHc.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Old Standard TT';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Old Standard TT Regular'), local('OldStandardTT-Regular'), url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQubh3o1vLImiwAVvYawgcf2eVepFq4dHc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Old Standard TT';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Old Standard TT Regular'), local('OldStandardTT-Regular'), url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQubh3o1vLImiwAVvYawgcf2eVeqlq4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'PT Sans Caption';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans Caption'), local('PTSans-Caption'), url(https://fonts.gstatic.com/s/ptsanscaption/v10/0FlMVP6Hrxmt7-fsUFhlFXNIlpcadw_xcy4.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'PT Sans Caption';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans Caption'), local('PTSans-Caption'), url(https://fonts.gstatic.com/s/ptsanscaption/v10/0FlMVP6Hrxmt7-fsUFhlFXNIlpcafg_xcy4.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'PT Sans Caption';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans Caption'), local('PTSans-Caption'), url(https://fonts.gstatic.com/s/ptsanscaption/v10/0FlMVP6Hrxmt7-fsUFhlFXNIlpcadA_xcy4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'PT Sans Caption';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans Caption'), local('PTSans-Caption'), url(https://fonts.gstatic.com/s/ptsanscaption/v10/0FlMVP6Hrxmt7-fsUFhlFXNIlpcaeg_x.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans Narrow'), local('PTSans-Narrow'), url(https://fonts.gstatic.com/s/ptsansnarrow/v8/BngRUXNadjH0qYEzV7ab-oWlsbCLwR26eg.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans Narrow'), local('PTSans-Narrow'), url(https://fonts.gstatic.com/s/ptsansnarrow/v8/BngRUXNadjH0qYEzV7ab-oWlsbCCwR26eg.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans Narrow'), local('PTSans-Narrow'), url(https://fonts.gstatic.com/s/ptsansnarrow/v8/BngRUXNadjH0qYEzV7ab-oWlsbCIwR26eg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans Narrow'), local('PTSans-Narrow'), url(https://fonts.gstatic.com/s/ptsansnarrow/v8/BngRUXNadjH0qYEzV7ab-oWlsbCGwR0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Play Regular'), local('Play-Regular'), url(https://fonts.gstatic.com/s/play/v9/6aez4K2oVqwIvtg2H68T.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Play Regular'), local('Play-Regular'), url(https://fonts.gstatic.com/s/play/v9/6aez4K2oVqwIvtE2H68T.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Play Regular'), local('Play-Regular'), url(https://fonts.gstatic.com/s/play/v9/6aez4K2oVqwIvts2H68T.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Play Regular'), local('Play-Regular'), url(https://fonts.gstatic.com/s/play/v9/6aez4K2oVqwIvtU2Hw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v6/e3t4euO8T-267oIAQAu6jDQyK3nYivN04w.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v6/e3t4euO8T-267oIAQAu6jDQyK3nRivN04w.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v6/e3t4euO8T-267oIAQAu6jDQyK3nbivN04w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v6/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rubik Bold'), local('Rubik-Bold'), url(https://fonts.gstatic.com/s/rubik/v7/iJWHBXyIfDnIV7F6iGmZ8WDm7Q.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rubik Bold'), local('Rubik-Bold'), url(https://fonts.gstatic.com/s/rubik/v7/iJWHBXyIfDnIV7F6iGmT8WDm7Q.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rubik Bold'), local('Rubik-Bold'), url(https://fonts.gstatic.com/s/rubik/v7/iJWHBXyIfDnIV7F6iGmd8WA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Russo One'), local('RussoOne-Regular'), url(https://fonts.gstatic.com/s/russoone/v6/Z9XUDmZRWg6M1LvRYsHOy8mJrrg.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Russo One'), local('RussoOne-Regular'), url(https://fonts.gstatic.com/s/russoone/v6/Z9XUDmZRWg6M1LvRYsHOwcmJrrg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Russo One'), local('RussoOne-Regular'), url(https://fonts.gstatic.com/s/russoone/v6/Z9XUDmZRWg6M1LvRYsHOz8mJ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Tinos Regular'), local('Tinos-Regular'), url(https://fonts.gstatic.com/s/tinos/v11/buE4poGnedXvwjX2fmRR8Q.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Tinos Regular'), local('Tinos-Regular'), url(https://fonts.gstatic.com/s/tinos/v11/buE4poGnedXvwjX_fmRR8Q.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Tinos Regular'), local('Tinos-Regular'), url(https://fonts.gstatic.com/s/tinos/v11/buE4poGnedXvwjX1fmRR8Q.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Tinos Regular'), local('Tinos-Regular'), url(https://fonts.gstatic.com/s/tinos/v11/buE4poGnedXvwjX7fmQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url(https://fonts.gstatic.com/s/vollkorn/v8/0yb9GDoxxrvAnPhYGxkkaE0GrQ.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url(https://fonts.gstatic.com/s/vollkorn/v8/0yb9GDoxxrvAnPhYGxktaE0GrQ.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url(https://fonts.gstatic.com/s/vollkorn/v8/0yb9GDoxxrvAnPhYGxknaE0GrQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url(https://fonts.gstatic.com/s/vollkorn/v8/0yb9GDoxxrvAnPhYGxkpaE0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'), url(https://fonts.gstatic.com/s/yanonekaffeesatz/v9/3y976aknfjLm_3lMKjiMgmUUYBs04Y8fH-qVHQ.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'), url(https://fonts.gstatic.com/s/yanonekaffeesatz/v9/3y976aknfjLm_3lMKjiMgmUUYBs04Y8VH-qVHQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'), url(https://fonts.gstatic.com/s/yanonekaffeesatz/v9/3y976aknfjLm_3lMKjiMgmUUYBs04Y8bH-o.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

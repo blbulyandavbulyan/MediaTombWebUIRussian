@@ -11,3 +11,66 @@ select{
     text-align-last: center;
     text-align: center;
 }
+div#item_add_edit_div select{
+	width: 291px;
+    height: 28px;
+}
+div#item_add_edit_div input.button{
+	font-family: 'Tinos', serif;
+    font-size: 15px;
+	font-weight: 500;
+}
+div#item_add_edit_div input.button:hover{
+	font-family: 'Tinos', serif;
+    font-size: 15px;
+	font-weight: 500;
+}
+div#item_add_edit_div input[type="text"]{
+	text-align:center;
+	border: 3px solid #656576;
+	border-radius: 16px;
+    height: 24px;
+    width: 288px;
+    font-size: 20px;
+    font-weight: 500;
+	background-color: #FFFFFF;
+	transition: background-color .6s cubic-bezier(0.43, 0.06, 0.08, 0.51) .1s;
+}
+div#item_add_edit_div input[type="text"]:hover{
+	text-align:center;
+	border: 3px solid #656576;
+	border-radius: 16px;
+    height: 24px;
+    width: 288px;
+	font-size: 20px;
+    font-weight: 500;
+	background-color: #c5baba;
+	transition: background-color .6s cubic-bezier(0.43, 0.06, 0.08, 0.51) .1s;
+}
+div#item_add_edit_div input[type="text"]:hover:focus{
+	background-color:white;
+	border: 3px solid #151515;
+	transition: border .6s cubic-bezier(0.43, 0.06, 0.08, 0.51) .1s;
+}
+div#autoscan_div table.classicForm input#interval{
+    border-radius: 6px;
+    text-align: center;
+    border: 2px solid grey;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Tinos', serif;
+	background-color: #2f2d2d;
+}
+div#autoscan_div table.classicForm input.button{
+	font-family: 'Lobster', cursive;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: oblique;
+	
+}
+div#autoscan_div table.classicForm input.button:hover{
+	font-family: 'Lobster', cursive;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: oblique;
+}
